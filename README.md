@@ -110,7 +110,7 @@ cryptasphere-labs/
 CryptaSphere is a cybersecurity consultancy based in Zimbabwe serving the SME market — a sector where cyber defences are largely underdeveloped. This repository documents the technical foundation being built to support CryptaSphere's service delivery.
 
 **Contact:** thamueengwenya@gmail.com
-**LinkedIn:** *(add your LinkedIn URL)*
+**LinkedIn:** https://www.linkedin.com/in/thamsanqa-ngwenya-77405028b?utm_source=share_via&utm_content=profile&utm_medium=member_ios
 
 ---
 
