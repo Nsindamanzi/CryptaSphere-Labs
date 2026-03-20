@@ -13,6 +13,7 @@
 | Diploma in Professional Computing & Information Processing | Institute of Commercial Management (ICM) · England | Sep 2022 | Distinction (A) in Applications, Number & Logic, Systems Analysis · Credit (B) in Programming Project |
 | Certificate in Professional Computing & Information Processing | Institute of Commercial Management (ICM) · England | Jul 2021 | Pass |
 | National Certificate in Information Technology | Bulawayo Polytechnic · Zimbabwe Ministry of Higher & Tertiary Education | Dec 2019 | Pass · Cert No. B 155797 |
+| Zone C Zimbabwe Debate Challenge (ZIDC) | Joshua Mqabuko Nkomo Polytechnic | Apr 2019 | Certificate of Participation · Zone-level inter-college competition |
 
 ---
 
@@ -135,7 +136,7 @@ cryptasphere-labs/
 
 CryptaSphere is a cybersecurity consultancy being built in Zimbabwe to provide penetration testing, security assessments, SIEM deployment, and incident response to SMEs across Zimbabwe and the region.
 
-**Contact:** thamueengwenya@gmail.com, Thamsanqa.Ngwenya@proton.me
+**Contact:** thamueengwenya@gmail.com
 **Credly:** [credly.com/users/thamsanqa-ngwenya](https://www.credly.com/users/thamsanqa-ngwenya)
 **GitHub:** [github.com/Nsindamanzi/cryptasphere-labs](https://github.com/Nsindamanzi/cryptasphere-labs)
 
