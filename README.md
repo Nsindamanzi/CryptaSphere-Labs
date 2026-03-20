@@ -1,117 +1,144 @@
-# CryptaSphere-Labs
-cryptasphere-labs
+# cryptasphere-labs
 
-> **Security research, lab documentation, and professional portfolio by Thamsanqa Ngwenya**
-> Bulawayo, Zimbabwe · CompTIA Security+ SY0-701 (in progress) · Founder @ CryptaSphere
-
----
-
-## Who This Is For
-
-Recruiters, hiring managers, and clients looking for evidence of hands-on security skills — not just certifications. Every folder in this repo is a lab I built, broke, fixed, and documented.
-
-Target roles: SOC Analyst I · Junior Penetration Tester · Junior Network Administrator · Systems Administrator
+> **Security research, lab documentation, and professional portfolio**
+> **Thamsanqa Ngwenya** · Bulawayo, Zimbabwe
+> Founder @ CryptaSphere · Junior Penetration Tester in training
 
 ---
 
-## Repository Structure
+## 🎓 Education & Academic Background
+
+| Qualification | Institution | Year | Result |
+|---|---|---|---|
+| Diploma in Professional Computing & Information Processing | Institute of Commercial Management (ICM) · England | Sep 2022 | Distinction (A) in Applications, Number & Logic, Systems Analysis · Credit (B) in Programming Project |
+| Certificate in Professional Computing & Information Processing | Institute of Commercial Management (ICM) · England | Jul 2021 | Pass |
+| National Certificate in Information Technology | Bulawayo Polytechnic · Zimbabwe Ministry of Higher & Tertiary Education | Dec 2019 | Pass · Cert No. B 155797 |
+
+---
+
+## 🏅 Certifications & Badges
+
+Verified credentials: **[credly.com/users/thamsanqa-ngwenya](https://www.credly.com/users/thamsanqa-ngwenya)**
+
+### Security Blue Team
+| Credential | Date | Cert ID |
+|---|---|---|
+| **Blue Team Junior Analyst** *(Full Pathway)* | Jun 2025 | 539247363 |
+| Introduction to Vulnerability Management *(Nessus)* | Jun 2025 | 931403166 |
+| Introduction to Threat Hunting *(Redline + IOC Editor)* | May 2025 | 464471079 |
+| Introduction to Dark Web Operations | Apr 2025 | 195034599 |
+| Introduction to Digital Forensics | Apr 2025 | 558945699 |
+| Introduction to OSINT | Nov 2024 | 771631878 |
+| Introduction to Network Analysis *(Wireshark + TCPDump)* | Nov 2024 | 692448971 |
+
+### Cisco Networking Academy
+| Credential | Status |
+|---|---|
+| Networking Devices and Initial Configuration | ✅ Earned |
+| Networking Basics | ✅ Earned |
+| Introduction to Cybersecurity | ✅ Earned |
+
+### In Progress
+| Credential | Issuer | Est. Completion |
+|---|---|---|
+| CompTIA Security+ SY0-701 | CompTIA | May 2026 |
+
+---
+
+## 👤 About
+
+I am a cybersecurity professional based in Bulawayo, Zimbabwe, building CryptaSphere — a security consultancy serving the Zimbabwean and regional SME market.
+
+My academic journey spans 7 years — from a National Certificate in IT (2019) through an ICM Certificate (2021) to an ICM Diploma in Professional Computing with Distinctions (2022). In 2024–2025 I completed the Security Blue Team Junior Analyst pathway, covering OSINT, digital forensics, network analysis, threat hunting, vulnerability management, and dark web operations — all with practical assessments. I am currently working toward CompTIA Security+ SY0-701.
+
+Every skill in this repository is documented with evidence — not just claimed.
+
+**Target role:** Junior Penetration Tester → Lead Pen Tester @ CryptaSphere
+
+---
+
+## 🧪 Labs Completed
+
+| Lab | Folder | Skills Demonstrated | Date |
+|---|---|---|---|
+| OpenSSL Self-Signed Certificate | `01-cryptography/openssl-self-signed-cert/` | PKI, CSR generation, cert inspection | Mar 2026 |
+| Wazuh SIEM Deployment | `03-siem-and-monitoring/wazuh-deployment/` | SIEM setup, agent enrollment, alert config | Mar 2026 |
+
+*Updated after every session.*
+
+---
+
+## 📁 Repository Structure
 
 ```
 cryptasphere-labs/
-│
 ├── 01-cryptography/
-│   ├── openssl-self-signed-cert/        ← Lab write-up + commands
-│   ├── key-exchange-analysis/           ← DHE vs RSA vs ECDHE notes
-│   └── hashing-and-salting/             ← Concepts + demo scripts
-│
+│   └── openssl-self-signed-cert/
 ├── 02-network-security/
-│   ├── ufw-firewall-rules/              ← Ubuntu UFW config + nmap test results
-│   ├── nmap-enumeration/                ← Kali scanning lab write-ups
-│   └── wireshark-packet-analysis/       ← Packet captures + annotated findings
-│
+│   ├── ufw-firewall-rules/
+│   ├── nmap-enumeration/
+│   └── wireshark-packet-analysis/
 ├── 03-siem-and-monitoring/
-│   ├── wazuh-deployment/                ← Full Wazuh SIEM setup (Ubuntu)
-│   ├── alert-triage/                    ← Real alert analysis + decisions
-│   └── rule-tuning/                     ← False positive reduction write-ups
-│
+│   ├── wazuh-deployment/
+│   ├── alert-triage/
+│   └── rule-tuning/
 ├── 04-incident-response/
-│   ├── ransomware-tabletop/             ← IR scenario walkthrough
-│   ├── ir-playbooks/                    ← Detection → Containment → Recovery
-│   └── forensics-chain-of-custody/      ← Evidence handling procedures
-│
+│   ├── ransomware-tabletop/
+│   └── forensics-chain-of-custody/
 ├── 05-vulnerability-management/
-│   ├── metasploitable-labs/             ← Controlled exploitation + CVSS scoring
-│   ├── cvss-scoring-exercises/          ← Real CVE scoring practice
-│   └── remediation-reports/             ← Client-style findings reports
-│
-├── 06-hardening/
-│   ├── linux-baseline-hardening/        ← Ubuntu hardening checklist + scripts
-│   ├── ssh-configuration/               ← Secure SSH setup
-│   └── service-minimisation/            ← Attack surface reduction
-│
-├── 07-pen-testing-basics/
-│   ├── recon-methodology/               ← Passive + active recon write-ups
-│   ├── kali-tooling/                    ← Netdiscover, Nikto, nmap workflows
-│   └── reporting-template/              ← Professional findings report template
-│
+│   ├── metasploitable-labs/
+│   ├── nessus-scanning/
+│   └── remediation-reports/
+├── 06-osint/
+│   ├── passive-recon/
+│   └── dark-web-intel/
+├── 07-pen-testing/
+│   ├── recon-methodology/
+│   ├── kali-tooling/
+│   └── reporting-template/
+├── 08-threat-hunting/
+│   └── ioc-analysis/
+├── 09-digital-forensics/
+│   └── disk-image-investigation/
 └── certifications/
-    ├── security-plus-notes/             ← Domain-by-domain study notes
-    └── exam-prep/                       ← Practice question analysis
+    └── security-plus-notes/
 ```
 
 ---
 
-## Labs Completed
+## 🛠️ Skills Index
 
-| Lab | Folder | Skills Demonstrated | Date |
-|-----|--------|--------------------|----|
-| OpenSSL Self-Signed Certificate | `01-cryptography/openssl-self-signed-cert` | PKI, CSR generation, cert inspection | Mar 2026 |
-| Wazuh SIEM Deployment | `03-siem-and-monitoring/wazuh-deployment` | SIEM setup, agent enrollment, alert config | Mar 2026 |
+**Penetration Testing & Offensive Security**
+`Kali Linux` `nmap` `Netdiscover` `Nikto` `Metasploit` `recon methodology` `CVSS scoring`
 
-*Updated after every lab session.*
+**OSINT & Threat Intelligence**
+`passive recon` `dark web operations` `OSINT frameworks` `indicator correlation`
 
----
+**Blue Team & Monitoring**
+`Wazuh SIEM` `alert triage` `Wireshark` `TCPDump` `PCAP analysis` `threat hunting` `IOC Editor` `Redline`
 
-## Skills Index
+**Digital Forensics & IR**
+`disk image investigation` `steganography` `zip cracking` `chain of custody` `IR lifecycle`
 
-**Defensive / Blue Team**
-- SIEM deployment and alert triage (Wazuh)
-- Incident response lifecycle
-- Digital forensics fundamentals
-- Vulnerability scanning and CVSS scoring
-- Linux system hardening
+**Vulnerability Management**
+`Nessus` `CVSS scoring` `remediation reporting` `risk prioritisation`
 
-**Networking**
-- Firewall configuration (UFW)
-- Packet analysis (Wireshark)
-- Network enumeration (nmap, Netdiscover)
-- VPN and tunneling concepts
+**Cryptography & PKI**
+`OpenSSL` `RSA/ECC` `DHE/ECDHE` `digital signatures` `certificate management` `hashing/salting`
 
-**Cryptography**
-- PKI and certificate management (OpenSSL)
-- Key exchange protocols (DHE, ECDHE, RSA)
-- Hashing, salting, digital signatures
-
-**Tools**
-`Wazuh` `Kali Linux` `nmap` `Wireshark` `OpenSSL` `UFW` `Metasploit` `Nikto` `Netdiscover`
+**Infrastructure & Hardening**
+`UFW firewall` `Linux hardening` `SSH configuration` `IAM` `access control`
 
 ---
 
-## Certifications
+## 🏢 About CryptaSphere
 
-| Cert | Status | Expected |
-|------|--------|----------|
-| CompTIA Security+ SY0-701 | In Progress | May 2026 |
+CryptaSphere is a cybersecurity consultancy being built in Zimbabwe to provide penetration testing, security assessments, SIEM deployment, and incident response to SMEs across Zimbabwe and the region.
 
----
-
-## About CryptaSphere
-
-CryptaSphere is a cybersecurity consultancy based in Zimbabwe serving the SME market — a sector where cyber defences are largely underdeveloped. This repository documents the technical foundation being built to support CryptaSphere's service delivery.
-
-**Contact:** thamueengwenya@gmail.com
-**LinkedIn:** https://shorturl.at/urphO
+**Contact:** thamueengwenya@gmail.com, Thamsanqa.Ngwenya@proton.me
+**Credly:** [credly.com/users/thamsanqa-ngwenya](https://www.credly.com/users/thamsanqa-ngwenya)
+**GitHub:** [github.com/Nsindamanzi/cryptasphere-labs](https://github.com/Nsindamanzi/cryptasphere-labs)
 
 ---
 
-*Last updated: March 2026*
+*Last updated: March 2026 · Bulawayo, Zimbabwe*
