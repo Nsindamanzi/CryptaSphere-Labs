@@ -1,4 +1,11 @@
 # cryptasphere-labs
+## 🔗 Related Portfolio
+
+This lab complements my hands-on cybersecurity work documented in:
+
+👉 https://github.com/Nsindamanzi/cryptasphere-labs
+
+While that repository demonstrates practical lab execution, this one focuses on validating skills under interview conditions and structured problem-solving.
 
 > **Security research, lab documentation, and professional portfolio**
 > **Thamsanqa Ngwenya** · Bulawayo, Zimbabwe
