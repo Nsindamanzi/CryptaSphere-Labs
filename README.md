@@ -1,11 +1,12 @@
 # cryptasphere-labs
-## 🔗 Related Portfolio
 
-This lab complements my hands-on cybersecurity work documented in:
+## 🧠 Skill Validation System
 
-👉 https://github.com/Nsindamanzi/cryptasphere-labs
+To demonstrate real-time problem solving and interview readiness, see:
 
-While that repository demonstrates practical lab execution, this one focuses on validating skills under interview conditions and structured problem-solving.
+👉 https://github.com/Nsindamanzi/technical-validation-lab
+
+This repository captures structured drills, scenario-based thinking, and technical validation beyond lab execution.
 
 > **Security research, lab documentation, and professional portfolio**
 > **Thamsanqa Ngwenya** · Bulawayo, Zimbabwe
