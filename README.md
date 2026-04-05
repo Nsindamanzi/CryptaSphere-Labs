@@ -1,16 +1,19 @@
 # cryptasphere-labs
 
-## 🧠 Skill Validation System
-
-To demonstrate real-time problem solving and interview readiness, see:
-
-👉 https://github.com/Nsindamanzi/technical-validation-lab
-
-This repository captures structured drills, scenario-based thinking, and technical validation beyond lab execution.
-
 > **Security research, lab documentation, and professional portfolio**
 > **Thamsanqa Ngwenya** · Bulawayo, Zimbabwe
 > Founder @ CryptaSphere · Junior Penetration Tester in training
+
+---
+
+## 📬 Contact & Profiles
+
+| Platform | Link |
+|---|---|
+| **GitHub** | [github.com/Nsindamanzi/cryptasphere-labs](https://github.com/Nsindamanzi/cryptasphere-labs) |
+| **LinkedIn** | [linkedin.com/in/thamsanqa-ngwenya-77405028b](https://www.linkedin.com/in/thamsanqa-ngwenya-77405028b/) |
+| **Credly** | [credly.com/users/thamsanqa-ngwenya](https://www.credly.com/users/thamsanqa-ngwenya) |
+| **Email** | thamueengwenya@gmail.com |
 
 ---
 
@@ -18,7 +21,7 @@ This repository captures structured drills, scenario-based thinking, and technic
 
 | Qualification | Institution | Year | Result |
 |---|---|---|---|
-| Diploma in Professional Computing & Information Processing | Institute of Commercial Management (ICM) · England | Sep 2022 | Distinction (A) in Applications, Number & Logic, Systems Analysis · Credit (B) in Programming Project |
+| Diploma in Professional Computing & Information Processing | Institute of Commercial Management (ICM) · England | Sep 2022 | Distinctions: Applications, Number & Logic, Systems Analysis · Credit: Programming Project |
 | Certificate in Professional Computing & Information Processing | Institute of Commercial Management (ICM) · England | Jul 2021 | Pass |
 | National Certificate in Information Technology | Bulawayo Polytechnic · Zimbabwe Ministry of Higher & Tertiary Education | Dec 2019 | Pass · Cert No. B 155797 |
 | Zone C Zimbabwe Debate Challenge (ZIDC) | Joshua Mqabuko Nkomo Polytechnic | Apr 2019 | Certificate of Participation · Zone-level inter-college competition |
@@ -29,7 +32,14 @@ This repository captures structured drills, scenario-based thinking, and technic
 
 Verified credentials: **[credly.com/users/thamsanqa-ngwenya](https://www.credly.com/users/thamsanqa-ngwenya)**
 
+### Linux Foundation
+
+| Credential | Date | Cert ID |
+|---|---|---|
+| **Cybersecurity Essentials (LFC108)** | Apr 2026 | LF-q7y3t3086h |
+
 ### Security Blue Team
+
 | Credential | Date | Cert ID |
 |---|---|---|
 | **Blue Team Junior Analyst** *(Full Pathway)* | Jun 2025 | 539247363 |
@@ -41,28 +51,39 @@ Verified credentials: **[credly.com/users/thamsanqa-ngwenya](https://www.credly.
 | Introduction to Network Analysis *(Wireshark + TCPDump)* | Nov 2024 | 692448971 |
 
 ### Cisco Networking Academy
+
 | Credential | Status |
 |---|---|
 | Networking Devices and Initial Configuration | ✅ Earned |
 | Networking Basics | ✅ Earned |
 | Introduction to Cybersecurity | ✅ Earned |
 
-### In Progress
-| Credential | Issuer | Est. Completion |
-|---|---|---|
-| CompTIA Security+ SY0-701 | CompTIA | May 2026 |
-
 ---
 
 ## 👤 About
 
-I am a cybersecurity professional based in Bulawayo, Zimbabwe, building CryptaSphere — a security consultancy serving the Zimbabwean and regional SME market.
+I am a cybersecurity professional based in Bulawayo, Zimbabwe, building CryptaSphere — a security consultancy for the Zimbabwean and regional SME market.
 
-My academic journey spans 7 years — from a National Certificate in IT (2019) through an ICM Certificate (2021) to an ICM Diploma in Professional Computing with Distinctions (2022). In 2024–2025 I completed the Security Blue Team Junior Analyst pathway, covering OSINT, digital forensics, network analysis, threat hunting, vulnerability management, and dark web operations — all with practical assessments. I am currently working toward CompTIA Security+ SY0-701.
+My academic journey spans 7 years — from a National Certificate in IT (2019) through an ICM Certificate (2021) to an ICM Diploma with Distinctions (2022). In 2024–2025 I completed the Security Blue Team Junior Analyst pathway covering OSINT, digital forensics, network analysis, threat hunting, vulnerability management, and dark web operations — all with practical assessments.
 
-Every skill in this repository is documented with evidence — not just claimed.
+Every skill in this repository is documented with evidence, not just claimed.
 
 **Target role:** Junior Penetration Tester → Lead Pen Tester @ CryptaSphere
+
+---
+
+## 🖥️ Lab Infrastructure
+
+A multi-VM security lab running enterprise-grade tooling across a heterogeneous network.
+
+| Component | Details |
+|---|---|
+| **SIEM** | Wazuh — hosted on Ubuntu (192.168.122.84) |
+| **Agents deployed on** | Windows 8 · Windows 10 · Windows Server 2022 · Kali Linux · Debian 13 (host) |
+| **Monitored endpoints** | 5 |
+| **Hypervisor host OS** | Debian 13 |
+| **Offensive tooling** | Kali Linux VM |
+| **Windows endpoints** | Windows 8 · Windows 10 · Windows Server 2022 |
 
 ---
 
@@ -70,8 +91,8 @@ Every skill in this repository is documented with evidence — not just claimed.
 
 | Lab | Folder | Skills Demonstrated | Date |
 |---|---|---|---|
-| OpenSSL Self-Signed Certificate | `01-cryptography/openssl-self-signed-cert/` | PKI, CSR generation, cert inspection | Mar 2026 |
-| Wazuh SIEM Deployment | `03-siem-and-monitoring/wazuh-deployment/` | SIEM setup, agent enrollment, alert config | Mar 2026 |
+| OpenSSL Self-Signed Certificate | `01-cryptography/openssl-self-signed-cert/` | PKI, CSR generation, private key management, cert inspection | Mar 2026 |
+| Wazuh SIEM Deployment | `03-siem-and-monitoring/wazuh-deployment/` | SIEM on Ubuntu · Agents on Windows 8, Windows 10, Win Server 2022, Kali, Debian 13 · Multi-platform threat detection | Mar 2026 |
 
 *Updated after every session.*
 
@@ -142,11 +163,7 @@ cryptasphere-labs/
 
 ## 🏢 About CryptaSphere
 
-CryptaSphere is a cybersecurity consultancy being built in Zimbabwe to provide penetration testing, security assessments, SIEM deployment, and incident response to SMEs across Zimbabwe and the region.
-
-**Contact:** thamueengwenya@gmail.com
-**Credly:** [credly.com/users/thamsanqa-ngwenya](https://www.credly.com/users/thamsanqa-ngwenya)
-**GitHub:** [github.com/Nsindamanzi/cryptasphere-labs](https://github.com/Nsindamanzi/cryptasphere-labs)
+CryptaSphere is a cybersecurity consultancy being built in Zimbabwe to serve the SME market with penetration testing, security assessments, SIEM deployment, and incident response.
 
 ---
 
