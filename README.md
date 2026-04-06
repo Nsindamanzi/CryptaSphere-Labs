@@ -32,6 +32,12 @@
 
 Verified credentials: **[credly.com/users/thamsanqa-ngwenya](https://www.credly.com/users/thamsanqa-ngwenya)**
 
+### Project Management Institute
+
+| Credential | Date | Notes |
+|---|---|---|
+| **Free Introduction: PMI Certified Professional in Managing AI (PMI-CPMAI)™** | Apr 2026 | Certificate of Course Completion |
+
 ### Linux Foundation
 
 | Credential | Date | Cert ID |
