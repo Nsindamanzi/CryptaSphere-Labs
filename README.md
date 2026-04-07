@@ -182,3 +182,18 @@ CryptaSphere is a cybersecurity consultancy being built in Zimbabwe to serve the
 ---
 
 *Last updated: April 2026 · Bulawayo, Zimbabwe*
+
+---
+
+## 📊 Security+ SY0-701 Progress
+
+| Domain | Weight | Score | Status |
+|---|---|---|---|
+| 1.0 General Security Concepts | 12% | 76% | ✅ Complete |
+| 2.0 Threats, Vulnerabilities & Mitigations | 22% | 88% | ✅ Complete |
+| 3.0 Security Architecture | 18% | 96% | ✅ Complete |
+| 4.0 Security Operations | 28% | 92% | ✅ Complete |
+| 5.0 Security Program Management | 20% | 96% | ✅ Complete |
+| **Weighted average** | **100%** | **90.7%** | **Phase 2 — Practice exam** |
+
+**Exam date:** 15 May 2026 · Pearson VUE · Bulawayo, Zimbabwe
