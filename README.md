@@ -68,7 +68,7 @@ Verified credentials: **[credly.com/users/thamsanqa-ngwenya](https://www.credly.
 
 ## 👤 About
 
-I am a cybersecurity professional based in Bulawayo, Zimbabwe, building CryptaSphere — a security consultancy for the Zimbabwean and regional SME market.
+I am a cybersecurity professional based in Harare, Zimbabwe, building CryptaSphere — a security consultancy for the Zimbabwean and regional SME market.
 
 My academic journey spans 7 years — from a National Certificate in IT (2019) through an ICM Certificate (2021) to an ICM Diploma with Distinctions (2022). In 2024–2026 I earned 11 certifications across Linux Foundation, Security Blue Team, and Cisco — covering OSINT, digital forensics, network analysis, threat hunting, vulnerability management, dark web operations, and cybersecurity essentials. I am currently completing CompTIA Security+ SY0-701.
 
